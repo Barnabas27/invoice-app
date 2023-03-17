@@ -1,0 +1,4 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-secondary d-flex justify-content-between">
+    <a class="navbar-brand" href="#">{{ title }}</a>
+    <app-button color="{{ showAddTask ? 'red' : 'green' }}" text="{{ showAddTask ? 'Close' : 'Add' }}" (btnClick)="toggleAddTask()"></app-button>
+  </nav>
